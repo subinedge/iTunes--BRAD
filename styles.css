@@ -1,0 +1,329 @@
+@import url('https://fonts.googleapis.com/css?family=Questrial'); /* section under header*/
+@import url('https://fonts.googleapis.com/css?family=Baloo+Bhai'); /* music section apple logo words */
+@import url('https://fonts.googleapis.com/css?family=Raleway:200');
+@import url('https://fonts.googleapis.com/css?family=Roboto:500');
+
+body {
+  background-color: #fafafa;
+  margin: 0;
+  padding: 0;
+  line-height: 1.6;
+}
+
+/****** Showcase Girl Image ******/
+
+header {
+  background: url('images/showcase_header.jpg');
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  width: 100vw;
+}
+
+
+/****** Menu Bar and logo ******/
+
+
+.logo {
+  height: 22px;
+  margin : 13px 150px;
+  float: left;
+}
+
+nav {
+  position:  fixed;
+  width: 100%;
+  line-height: 18px;
+}
+
+nav ul {
+  float: right;
+  margin: 0;
+  padding-right: 42px;
+}
+
+nav ul li {
+  display: inline-block;
+  padding: 14px 27px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: #fff;
+  font-size: 14px;
+  font-family: 'Open Sans';
+}
+
+
+.fa-search {
+  color: #fff;
+}
+
+
+/****** Menu and Search icon Hover ******/
+
+nav ul li a:hover {
+  color: #B7B7B7;
+}
+
+
+.fa-search:hover {
+  color: #111;
+}
+
+/* Nav part ends here */
+
+
+
+/****** Container under girl image ******/
+
+
+.container {
+  width: 70%;
+  text-align: center;
+  margin: 0 auto;
+  margin-top: 100px !important;
+}
+
+
+.section-underheader h1{
+  font-family: 'Questrial';
+  font-size: 64px;
+  font-weight: 300;
+  color: #333;
+  line-height: 68px;
+  /* margin-top: 10vh; */
+  /* margin-bottom: 10px; */
+}
+
+.section-underheader h2 {
+  font-family: 'Questrial';
+  font-size: 64px;
+  font-weight: 300;
+  color: #888;
+  margin: 0;
+  line-height: 60px;
+}
+
+.section-underheader p {
+  font-family: 'Questrial';
+  width: 70%;
+  font-size: 18px;
+  font-weight: 400;
+  color: #333;
+  line-height: 26px;
+}
+
+
+.mockup1 {
+ width: 55vw;
+ /* margin-bottom: 30px; */
+}
+
+#music {
+  background-color: #fff !important;
+}
+
+.section_head{
+  font-family: 'Baloo Bhai';
+  font-size: 45px;
+  color: #333;
+  font-weight: 400;
+  line-height: 26px;
+  margin-bottom: 10px;
+}
+
+.apple_logo_music {
+  width: 35px;
+  height: 40px;
+  position: relative;
+  top: 70px;
+  left: -90px;
+}
+
+.music_p1 {
+  font-family: 'Raleway';
+  font-size: 45px;
+  margin-top: 0;
+}
+
+.music_p2 {
+  font-family: 'Open Sans';
+  font-size: 16px;
+  width: 80%;  
+}
+
+.button_music {
+  padding: 7px 15px;
+  font-size: 16px;
+  margin-top: 15px;
+  border-radius: 5px;
+  color: #fff;
+  background-color: #FF466A;
+  border: none;
+}
+
+.under_button_text {
+  font-size: 14px;
+  color: #999999;
+}
+
+
+.under_button_link {
+  text-decoration: none;
+  font-size: 16px;
+  font-family: 'Open Sans';
+  color:#0070c9;
+  font-weight: 400;
+  position: relative;
+  top: 30px;
+}
+
+.under_button_link:hover {
+  text-decoration: underline;
+}
+
+.mockup2 {
+  width: 75vw;
+  height: 80vh;
+  margin-top: 40px;
+}
+
+
+/* Video Section */
+
+#video {
+  margin-bottom: 90px;
+}
+
+.video_highlight_text {
+  font-size: 45px;
+  width: 80%;
+  line-height: 48px;
+  font-family: 'Raleway';
+}
+
+
+.video_highlight_para {
+  font-family: 'Open Sans';
+  width: 85%;
+  line-height: 26px;
+}
+
+.mockup3 {
+  width: 75vw;
+  height: 80vh;
+  margin-top: 40px;
+}
+
+
+.kong_skull {
+  font-size: 16px;
+  text-align: right;
+  color: #999999;
+  text-decoration: none;
+}
+
+.fa-share {
+  font-size: 13px;
+}
+
+
+.kong_skull:hover {
+  text-decoration: underline;
+}
+
+
+.parallax {
+  background: url('images/parallax.jpg');
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+}
+
+
+.parallax_heading {
+  font-size: 45px;
+  float: right;
+  position: relative;
+  top: 80px;
+  line-height: 60px;
+  width: 50%;
+  font-family: 'Raleway';
+}
+
+
+.parallax_para {
+  font-family: 'Raleway';
+  position: relative;
+  top: 275px;
+  left: 680px;
+  font-weight: bold;
+  font-size: 16px;
+  width: 40vw;
+  line-height : 30px;
+}
+
+
+.secondary_button_class {
+  position: relative;
+  top: 275px;
+  left: 50.5%;
+}
+
+
+/* JQuery Nav Section background color while scroll */
+
+nav.black {
+  background: #323232;
+}
+
+/* footer */
+
+footer{
+  background-color: #999999;
+}
+
+footer .footer-cols {
+  width: 75% !important;
+  display: grid;
+  grid-gap: 20px;
+  grid-template-columns: repeat(4, 1fr);
+  padding: 2rem;
+  text-align: left;
+  font-size: 14px; 
+}
+
+footer .footer-cols ul {
+  list-style: none;
+}
+
+footer .footer-cols ul li a {
+  text-decoration: none;
+  color: #333;
+}
+
+footer .footer-cols ul li a:hover {
+  text-decoration: underline;
+}
+
+footer .footer-cols ul li:first-child {
+  font-size: 1rem;
+  padding-bottom: .3rem;
+  border-bottom: #444 solid 1px;
+  margin-bottom: 1rem;
+}
+
+.footer_exception_style {
+  font-size: 1rem;
+  padding-bottom: .5rem;
+  border-bottom: #444 solid 1px;
+  margin-bottom: 1rem;
+}
+
+.text-center {
+  text-align: center;
+}
+
+
+
